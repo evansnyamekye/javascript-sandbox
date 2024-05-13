@@ -19,7 +19,7 @@ console.log(prodOutput);
 // Get the quotient
 const quot = x / y;
 const quotOutput = `${x} / ${y} = ${quot}`;
-console.log(quotOutput);
+console.log(quotOutput);``
 
 // Get the remainder
 const rm = x % y;
