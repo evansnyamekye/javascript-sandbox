@@ -13,13 +13,14 @@ x = todo;
 const person = {
   address: {
     coords: {
+      midpiont: degree09,
       lat: 42.9384,
       lng: -71.3232,
     },
   },
 };
 
-x = person.address.coords.lat;
+x = person.address.coords.midpiont;
 
 const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
