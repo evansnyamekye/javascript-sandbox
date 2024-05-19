@@ -43,4 +43,3 @@ console.log(firstBook);
 const libraryJSON = JSON.stringify(library);
 
 console.log(libraryJSON);
- 
