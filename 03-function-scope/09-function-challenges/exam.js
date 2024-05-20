@@ -25,3 +25,23 @@ console.log(minMax([1,2,3,4,5,6]));
     
     console.log(output); 
 })(20, 5);
+
+
+const x = 10; 
+const y = 5
+
+
+if (x === y) {
+console.log(`${x} is equal than ${y}`)
+} else {
+    console.log(`${x} is NOT equal to ${y}`)
+}
+
+const d = new Date(10, 30, 20, 8, 0, 0); 
+const hour = d.getHours(); 
+
+if (hour < 10){
+    console.log('good morning')
+} else {
+    console.log('good evening')
+}
