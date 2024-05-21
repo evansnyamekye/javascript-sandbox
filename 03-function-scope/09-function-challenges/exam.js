@@ -45,3 +45,12 @@ if (hour < 10){
 } else {
     console.log('good evening')
 }
+
+
+const age = 18; 
+
+if (age >= 15) {
+        console.log('You can vote')
+} else {
+    console.log('You can not vote');
+}
