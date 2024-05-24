@@ -54,3 +54,4 @@ if (age >= 15) {
 } else {
     console.log('You can not vote');
 }
+
