@@ -1,18 +1,18 @@
-const name = 'kofi'; 
-const age = 40; 
+// Value is stored in the stack
+const name = 'John';
+const age = 30;
 
+// Reference is stored in the heap
 const person = {
-    name: 'emily',
-    age: 40
-}
+  name: 'Brad',
+  age: 40,
+};
 
-let newName = name; 
-//convert ALL FIGURES TO REALS
-console.log(newName, name)
+let newName = name;
+newName = 'Jonathan';
 
-//convert ALL FIGURES TO REALS
-let amount = '100'; 
-//convert ALL FIGURES TO REALS
-amount = parseInt(amount); 
+let newPerson = person;
+newPerson.name = 'Bradley';
 
-console.log(amount, typeof amount);
+console.log(name, newName); // John, Jonathan
+console.log(person, newPerson); // { name: 'Bradley', age: 40 }, { name: 'Bradley', age: 40 }
